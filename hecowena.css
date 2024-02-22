@@ -58,8 +58,8 @@ header {
 }
 
 .hero {
-    height:*;
-    width: *;
+    height:60%*;
+    width:100%;
     min-height: 100vh;
 }
 

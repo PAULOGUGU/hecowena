@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>HECOWENA.org.ke</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
+    <meta viewport="viewport" content="width=device-width, initial-scale"/>
     <link href="hecowena.css" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- Include the Typed.js library -->
@@ -48,11 +48,13 @@
             padding: 0;
             margin: 0;
             text-align: center;
-            display: none; /* Initially hide the navigation list */
+            display: flex; /* Initially hide the navigation list */
+            flex-direction: column;/*Display the navigation list in a column*/
+
         }
 
         .navlist.open {
-            display: block; /* Show the navigation list when 'open' class is present */
+            display: flex; /* Show the navigation list when 'open' class is present */
         }
 
         .navlist li {
@@ -83,6 +85,7 @@
         .bx-menu {
             font-size: 2rem;
         }
+        
         
         /* yn */
     </style>
@@ -239,8 +242,8 @@
 <div class="container">
   <div class="drop">
       <div class="content">
-        <h3><h5><b><i>EXECUTIVE DIRECTOR</i></b></h5></h3>
-      <img src="C:/Users/WINDOWS/Desktop/New folder (2)/executive.jpg" alt="Slide 1">
+        <h3><h5><b><i>CO-FOUNDER</CO-FOUNDER></i></b></h5></h3>
+      <img src="images/founder.jpg" alt="Slide 1">
       <p> Alex Ontiri, BSc. MPH</p>
      
       <a href="#"></a>
@@ -251,8 +254,8 @@
   <div class="drop">
       <div class="content">
       <h3><h5><b><i>CO-FOUNDER</i></b></h5></h3>
-      <img src="C:/Users/WINDOWS/Desktop/New folder (2)/nicks.jpg" alt="Slide 1">
-      <p>NICKSON OGUGU</p>
+      <img src="images/co-founder.jpg" alt="Slide 1">
+      <p>NICKSON OGUGU, BSc. MPH</p>
       <P></P>
       <a href="#"></a>
   </div>
@@ -261,7 +264,7 @@
     <div class="content">
       <h3><h5><b><i>IT CONSULTANT</i></b></h5></h3>
     <img src="images/rollomylo.jpg"Slide 1">
-    <p> PAUL SEPS, BBIT.</p>
+    <p> PAUL SEPS, IT GURU.</p>
    
     <a href="#"></a>
   
